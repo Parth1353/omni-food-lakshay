@@ -97,7 +97,7 @@ body {
   font-size: 2.3rem;
   text-decoration: none;
   transition: background-color 0.3s;
-  font-weight: ;
+  font-weight: 500;
 }
 .btn--full:link,
 .btn--full:visited {
@@ -315,12 +315,25 @@ span.heading-2 {
   gap: 1.8rem;
   font-size: 3.6rem;
 }
+
+
+.meal-section {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  background-color: #333;
+ }
+
 .meal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; 
   box-shadow: 0 2.4rem 4.8rem red;
 }
 
-/* .meal-img {
+.meal-img {
+  width: 30rem;
+  height: auto; 
 }
-.meal-content {
-  box-shadow: 0 20px 20px 0 red; */
-/* } */
